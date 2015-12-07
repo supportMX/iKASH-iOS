@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E4A5231C158F230046E09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4A5221C158F230046E09D /* AppDelegate.swift */; };
+		03E4A5251C158F230046E09D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4A5241C158F230046E09D /* ViewController.swift */; };
+		03E4A5281C158F230046E09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E4A5261C158F230046E09D /* Main.storyboard */; };
+		03E4A52A1C158F230046E09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E4A5291C158F230046E09D /* Assets.xcassets */; };
+		03E4A52D1C158F230046E09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E4A52B1C158F230046E09D /* LaunchScreen.storyboard */; };
+		03E4A5381C158F230046E09D /* iKashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4A5371C158F230046E09D /* iKashTests.swift */; };
+		03E4A5431C158F230046E09D /* iKashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E4A5421C158F230046E09D /* iKashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03E4A5341C158F230046E09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E4A5171C158F230046E09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E4A51E1C158F230046E09D;
+			remoteInfo = iKash;
+		};
+		03E4A53F1C158F230046E09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03E4A5171C158F230046E09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03E4A51E1C158F230046E09D;
+			remoteInfo = iKash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E4A51F1C158F230046E09D /* iKash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E4A5221C158F230046E09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E4A5241C158F230046E09D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E4A5271C158F230046E09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E4A5291C158F230046E09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E4A52C1C158F230046E09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E4A52E1C158F230046E09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E4A5331C158F230046E09D /* iKashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E4A5371C158F230046E09D /* iKashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKashTests.swift; sourceTree = "<group>"; };
+		03E4A5391C158F230046E09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E4A53E1C158F230046E09D /* iKashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E4A5421C158F230046E09D /* iKashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKashUITests.swift; sourceTree = "<group>"; };
+		03E4A5441C158F230046E09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E4A51C1C158F230046E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E4A5301C158F230046E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E4A53B1C158F230046E09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E4A5161C158F230046E09D = {
+			isa = PBXGroup;
+			children = (
+				03E4A5211C158F230046E09D /* iKash */,
+				03E4A5361C158F230046E09D /* iKashTests */,
+				03E4A5411C158F230046E09D /* iKashUITests */,
+				03E4A5201C158F230046E09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E4A5201C158F230046E09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E4A51F1C158F230046E09D /* iKash.app */,
+				03E4A5331C158F230046E09D /* iKashTests.xctest */,
+				03E4A53E1C158F230046E09D /* iKashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E4A5211C158F230046E09D /* iKash */ = {
+			isa = PBXGroup;
+			children = (
+				03E4A5221C158F230046E09D /* AppDelegate.swift */,
+				03E4A5241C158F230046E09D /* ViewController.swift */,
+				03E4A5261C158F230046E09D /* Main.storyboard */,
+				03E4A5291C158F230046E09D /* Assets.xcassets */,
+				03E4A52B1C158F230046E09D /* LaunchScreen.storyboard */,
+				03E4A52E1C158F230046E09D /* Info.plist */,
+			);
+			path = iKash;
+			sourceTree = "<group>";
+		};
+		03E4A5361C158F230046E09D /* iKashTests */ = {
+			isa = PBXGroup;
+			children = (
+				03E4A5371C158F230046E09D /* iKashTests.swift */,
+				03E4A5391C158F230046E09D /* Info.plist */,
+			);
+			path = iKashTests;
+			sourceTree = "<group>";
+		};
+		03E4A5411C158F230046E09D /* iKashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03E4A5421C158F230046E09D /* iKashUITests.swift */,
+				03E4A5441C158F230046E09D /* Info.plist */,
+			);
+			path = iKashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E4A51E1C158F230046E09D /* iKash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E4A5471C158F230046E09D /* Build configuration list for PBXNativeTarget "iKash" */;
+			buildPhases = (
+				03E4A51B1C158F230046E09D /* Sources */,
+				03E4A51C1C158F230046E09D /* Frameworks */,
+				03E4A51D1C158F230046E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iKash;
+			productName = iKash;
+			productReference = 03E4A51F1C158F230046E09D /* iKash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E4A5321C158F230046E09D /* iKashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E4A54A1C158F230046E09D /* Build configuration list for PBXNativeTarget "iKashTests" */;
+			buildPhases = (
+				03E4A52F1C158F230046E09D /* Sources */,
+				03E4A5301C158F230046E09D /* Frameworks */,
+				03E4A5311C158F230046E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E4A5351C158F230046E09D /* PBXTargetDependency */,
+			);
+			name = iKashTests;
+			productName = iKashTests;
+			productReference = 03E4A5331C158F230046E09D /* iKashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03E4A53D1C158F230046E09D /* iKashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E4A54D1C158F230046E09D /* Build configuration list for PBXNativeTarget "iKashUITests" */;
+			buildPhases = (
+				03E4A53A1C158F230046E09D /* Sources */,
+				03E4A53B1C158F230046E09D /* Frameworks */,
+				03E4A53C1C158F230046E09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E4A5401C158F230046E09D /* PBXTargetDependency */,
+			);
+			name = iKashUITests;
+			productName = iKashUITests;
+			productReference = 03E4A53E1C158F230046E09D /* iKashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E4A5171C158F230046E09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gocpa;
+				TargetAttributes = {
+					03E4A51E1C158F230046E09D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					03E4A5321C158F230046E09D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 03E4A51E1C158F230046E09D;
+					};
+					03E4A53D1C158F230046E09D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 03E4A51E1C158F230046E09D;
+					};
+				};
+			};
+			buildConfigurationList = 03E4A51A1C158F230046E09D /* Build configuration list for PBXProject "iKash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E4A5161C158F230046E09D;
+			productRefGroup = 03E4A5201C158F230046E09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E4A51E1C158F230046E09D /* iKash */,
+				03E4A5321C158F230046E09D /* iKashTests */,
+				03E4A53D1C158F230046E09D /* iKashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E4A51D1C158F230046E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E4A52D1C158F230046E09D /* LaunchScreen.storyboard in Resources */,
+				03E4A52A1C158F230046E09D /* Assets.xcassets in Resources */,
+				03E4A5281C158F230046E09D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E4A5311C158F230046E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E4A53C1C158F230046E09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E4A51B1C158F230046E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E4A5251C158F230046E09D /* ViewController.swift in Sources */,
+				03E4A5231C158F230046E09D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E4A52F1C158F230046E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E4A5381C158F230046E09D /* iKashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E4A53A1C158F230046E09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E4A5431C158F230046E09D /* iKashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E4A5351C158F230046E09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E4A51E1C158F230046E09D /* iKash */;
+			targetProxy = 03E4A5341C158F230046E09D /* PBXContainerItemProxy */;
+		};
+		03E4A5401C158F230046E09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03E4A51E1C158F230046E09D /* iKash */;
+			targetProxy = 03E4A53F1C158F230046E09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03E4A5261C158F230046E09D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E4A5271C158F230046E09D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E4A52B1C158F230046E09D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E4A52C1C158F230046E09D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E4A5451C158F230046E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E4A5461C158F230046E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E4A5481C158F230046E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iKash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gocpa.app.iKash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03E4A5491C158F230046E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iKash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gocpa.app.iKash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03E4A54B1C158F230046E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iKashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gocpa.app.iKashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKash.app/iKash";
+			};
+			name = Debug;
+		};
+		03E4A54C1C158F230046E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iKashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gocpa.app.iKashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iKash.app/iKash";
+			};
+			name = Release;
+		};
+		03E4A54E1C158F230046E09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iKashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gocpa.app.iKashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iKash;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		03E4A54F1C158F230046E09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iKashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gocpa.app.iKashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iKash;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E4A51A1C158F230046E09D /* Build configuration list for PBXProject "iKash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E4A5451C158F230046E09D /* Debug */,
+				03E4A5461C158F230046E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E4A5471C158F230046E09D /* Build configuration list for PBXNativeTarget "iKash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E4A5481C158F230046E09D /* Debug */,
+				03E4A5491C158F230046E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03E4A54A1C158F230046E09D /* Build configuration list for PBXNativeTarget "iKashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E4A54B1C158F230046E09D /* Debug */,
+				03E4A54C1C158F230046E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03E4A54D1C158F230046E09D /* Build configuration list for PBXNativeTarget "iKashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E4A54E1C158F230046E09D /* Debug */,
+				03E4A54F1C158F230046E09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E4A5171C158F230046E09D /* Project object */;
+}
